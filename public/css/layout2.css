@@ -1,0 +1,279 @@
+/* RESET --------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+
+/* GENERAL ------------------------------------*/
+
+body {
+  background:url(/images2/body_bg.gif) repeat-x #FFF;
+	font-family:Helvetica;
+}
+
+.clear { clear:both; }
+
+#container {
+  width:990px;
+  margin:0 auto;
+}
+
+/* HEADER -------------------------------------*/
+
+#header {}
+#logo {
+  background:url("/images2/logo.gif") no-repeat scroll 0 0 transparent;
+  height:90px;
+  margin-top:1px;
+  width:280px;
+	float:left;
+}
+#logo a,
+#logo h1 {
+	display:block;
+	font-size:0;
+	height:100%;
+	line-height:0;
+	width:100%;
+}
+#header h2 {
+	color:#FFFFFF;
+	display:inline;
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+	margin:13px 45px;
+	width:auto;
+	letter-spacing:0;
+}
+#buttons {
+	padding: 10px 0px;
+	float:right;
+}
+a.button {
+	background:url("/images2/btn_bg.gif") repeat-x scroll 0 0 transparent;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+	border-top:1px solid #000000;
+	color:#FFFFFF;
+	padding:5px 10px;
+	text-decoration:none;
+	font-weight:bold;
+}
+#social {
+	float:right;
+	margin: 0 10px;
+}
+a#twitter {
+	background:url("/images2/social.png") no-repeat scroll 0 0 transparent;
+	display:block;
+	font-size:0;
+	height:35px;
+	line-height:0;
+	width:35px;
+	float:left;
+}
+#facebook {
+	background:url("/images2/social.png") no-repeat scroll -37px 0 transparent;
+	display:block;
+	font-size:0;
+	height:35px;
+	line-height:0;
+	width:35px;
+	float:left;
+}
+
+/* CONTENT ------------------------------------*/
+
+#main {
+	width:650px;
+	float:left;
+}
+/* Easy Slider */
+#slideros ul, #slideros li{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+#slideros, #slideros li{
+  width:650px;
+  height:300px;
+  overflow:hidden;
+}
+#slideros-reciclable {
+  border: 5px solid #000;
+}
+#slideros-reciclable ul, #slideros-reciclable li{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+#slideros-reciclable, #slideros-reciclable li{
+  width:640px;
+  height:300px;
+  overflow:hidden;
+}
+#banner #controls {
+   background:url(/images2/bolsitos.gif) no-repeat;
+   height:197px;
+   padding:0px 8px;
+   margin-top: 20px;
+}
+#banner-reciclable #controls {
+   background:url("/images2/new_reciclables.gif") no-repeat scroll 2px 20px transparent;
+   height:190px;
+   margin-top: 20px;
+}
+#banner ol li {
+  float:left;
+  height:145px;
+  margin:20px 3px;
+  width:55px;
+}
+#banner ol li a {
+  display:block;
+  height:100%;
+  width:100%;
+  line-height:0;
+  font-size:0px;
+}
+#banner-reciclable ol li {
+  float:left;
+  height:145px;
+  margin:20px 12px 0 0;
+  width:118px;
+}
+#banner-reciclable ol li a {
+  display:block;
+  height:100%;
+  width:100%;
+  line-height:0;
+  font-size:0px;
+}
+
+
+#banner #controls1 { display: none; }
+#banner #controls2 { background:url(/images2/bolso1.gif) no-repeat; }
+#banner #controls3 { background:url(/images2/bolso2.gif) no-repeat; }
+#banner #controls4 { background:url(/images2/bolso3.gif) no-repeat; }
+#banner #controls5 { background:url(/images2/bolso4.gif) no-repeat; }
+#banner #controls6 { background:url(/images2/bolso5.gif) no-repeat; }
+#banner #controls7 { background:url(/images2/bolso6.gif) no-repeat; }
+#banner #controls8 { background:url(/images2/bolso7.gif) no-repeat; }
+#banner #controls9 { background:url(/images2/bolso8.gif) no-repeat; }
+#banner #controls10 { background:url(/images2/bolso9.gif) no-repeat; }
+#banner #controls11 { background:url(/images2/bolso10.gif) no-repeat; }
+
+#banner-reciclable #controls1 { background:url(/images2/banner_reciclables/bolso1.gif) no-repeat;  }
+#banner-reciclable #controls2 { background:url(/images2/banner_reciclables/bolso2.gif) no-repeat; }
+#banner-reciclable #controls3 { background:url(/images2/banner_reciclables/bolso3.gif) no-repeat; }
+#banner-reciclable #controls4 { background:url(/images2/banner_reciclables/bolso4.gif) no-repeat; }
+#banner-reciclable #controls5 { background:url(/images2/banner_reciclables/bolso5.gif) no-repeat; }
+
+#vendidos {
+	background:url(/images2/vendidos_bg.gif) repeat-x;
+	padding:40px 60px;
+	margin: 33px 0px 10px;
+	width: 515px;
+}
+#vendidos h2 {
+	font-size:38px;
+}
+.box {
+	border: 5px solid #000;
+}
+#facebook-box {
+	width: 940px;
+	padding:20px;
+	float:right;
+	margin-top:15px;
+}
+#facebook-box h3 {
+	font-size:28px;
+	font-weight:bold;
+}
+#facebook-box p {
+	font-size:20px;
+	margin: 10px 0px;
+	line-height:15px;
+}
+#reciclables-box {
+	float:left;
+	padding:16px 0px;
+	width:649px;
+}
+#bolsitos-box {
+  float:left;
+  padding:12px 5px;
+  width:245px;
+}
+
+/* SIDEBAR ------------------------------------*/
+
+#sidebar {
+	background:none repeat scroll 0 0 #000000;
+	color:#FFFFFF;
+	float:right;
+	padding:10px;
+	width:315px;
+
+}
+
+
+#sidebar h2 {
+	text-align: left;
+	font-size:26px;
+	line-height:1em;
+	padding:0px 15px;
+	letter-spacing: -0.5px;
+}
+#sidebar p {
+	font-size:16px;
+	line-height:20px;
+	color:#FFF;
+	text-align: left;	
+	padding:10px 15px;
+}
+
+
+/* FOOTER -------------------------------------*/
+#footer{
+	text-align:center
+}
+.line {
+	background:#000;
+	border:5px solid #000;
+	margin:10px 0px;
+}

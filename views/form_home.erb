@@ -1,0 +1,62 @@
+<div class="box_cotizacion">
+
+	<div class="webform">
+		
+		<form id="formu" name="form" method="post" onsubmit="" enctype="multipart/form-data" action="/gracias">
+	    	  
+	  <div>
+		  <label>¿Cuantos quieres?</label>
+		  <select name="cantidad" id="cantidad" class="drop_cantidad cat_textbox required" size="1">
+		    <option value="1">1</option>
+		    <option value="2">2</option>
+		    <option value="3">3</option>
+		    <option value="4">4</option>
+		    <option value="5">5</option>
+		    <option value="6">6</option>
+		    <option value="7">7</option>
+		    <option value="8">8</option>
+		    <option value="9">9</option>
+		    <option value="10">10</option>
+		    <option value="11">11</option>
+		    <option value="12">12</option>
+		  </select>
+		</div>
+		
+		
+		
+		<div id="colores_div">
+		  <label>¿De que colores?</label>
+			<input type="text" maxlength="255" class="cat_textbox required" id="colores" name="colores" />	
+		</div>
+		
+	  <div>
+	    <label>Nombre</label>
+			<input type="text" maxlength="255" class="cat_textbox required" id="nombre" name="nombre" />
+		</div>
+		<div>
+		  <label>Email</label>
+			<input type="text" maxlength="255" class="cat_textbox required" id="email" name="email" />
+		</div>	
+		
+		<div>
+		  <label>Teléfono</label>
+			<input type="text" maxlength="255" class="cat_textbox required" id="telefono" name="telefono" />
+		</div>
+		
+		<div>
+      <label>¿Tienes algun Comentario?</label>
+      <input type="text" maxlength="255" class="cat_textbox" id="notas" name="notas" />
+		</div>
+				
+		<input type="hidden" name="tipo" id="tipo" value="paracaidas">
+			
+		<input type="submit" id="catwebformbutton" value="Order" class="cat_button" />
+	  
+	  
+	  
+		</form>
+		
+		
+	</div>
+	
+</div>

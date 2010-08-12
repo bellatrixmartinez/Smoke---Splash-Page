@@ -1,0 +1,52 @@
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({appId: 'your app id', status: true, cookie: true,
+             xfbml: true});
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+
+
+<div id="main">
+  <div id="banner">
+    <div id="slideros">
+			<ul>
+				<li style="float: left;"><a href="#"><img alt="Bolsitos de Colores" src="/images2/banner0.gif"></a></li>
+				<li style="float: left;"><a href="#"><img alt="Bolsitos de Colores" src="/images2/kiwypink.jpg"></a></li>
+				<li style="float: left;"><a href="#"><img alt="Bolsitos de Colores" src="/images2/rojo.jpg"></a></li>
+				<li style="float: left;"><a href="#"><img alt="Bolsitos de Colores" src="/images2/naranja.jpg"></a></li>
+				<li style="float: left;"><a href="#"><img alt="Bolsitos de Colores" src="/images2/lima.jpg"></a></li>
+				<li style="float: left;"><a href="#"><img alt="Bolsitos de Colores" src="/images2/verde.jpg"></a></li>
+				<li style="float: left;"><a href="#"><img alt="Bolsitos de Colores" src="/images2/aqua.jpg"></a></li>
+				<li style="float: left;"><a href="#"><img alt="Bolsitos de Colores" src="/images2/azul.jpg"></a></li>
+				<li style="float: left;"><a href="#"><img alt="Bolsitos de Colores" src="/images2/morado.jpg"></a></li>
+				<li style="float: left;"><a href="#"><img alt="Bolsitos de Colores" src="/images2/negro.jpg"></a></li>
+				<li style="float: left;"><a href="#"><img alt="Bolsitos de Colores" src="/images2/marron.jpg"></a></li>
+      </ul>
+		</div>
+  </div>
+  <div id="vendidos">
+    <h2>A message here</h2>
+  </div>
+  
+</div>
+
+<div id="sidebar">
+  <h2>Order form</h2>
+  <p>some text here</p>
+  <%= partial :form_home %>
+</div>
+
+<div id="facebook-box" class="box">
+  <h3>Facebook box</h3>
+  <p>This is really the facebook box</p>
+<fb:comments xid="bolsitosdecolores" width="900px"></fb:comments>
+</div>
+
+<div class="clear"></div>

@@ -1,0 +1,243 @@
+body{ margin: 0;}
+
+h1{ font-family: 'arial'; font-size: 26px; font-weight: 100;}
+h2{font-family: 'helveticaNeue', 'arial', 'sans-serif'; font-size: 32px; letter-spacing: -2px; line-height:5px; }
+h4{ font-size: 24px; margin: 0px 0 20px 0; font-weight: 100; text-align: center;}
+h5{ font-size: 16px; margin: 0 0 20px 0; font-weight: 100;}
+
+p {font-family: 'arial'; font-size: 16px; font-weight: 100;}
+
+li {font-family:'arial'; font-size: 16px; font-weight: 100;}
+
+a {font-family:'arial'; color: white; font-size: 48px; font-weight:100; text-decoration:none}
+a {*font-family:'arial'; *color: white; *font-size: 48px; *font-weight:100; *text-decoration:none}
+
+a.tag {font-size:25px; }
+a img {border:0 none; }
+#foto {background-image:'../bags/photos.jpg';}
+.clear {clear:both} 
+
+.izquierda { float:left; width:600px }
+.derecha { float:right; }
+
+
+
+/* NUEVO */
+.gracias{  
+	margin: 0 auto; 
+	background: black; 
+	padding: 1em; color: white; 
+	height: 60%; 
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.gracias p{ 
+	font-size: 2.5em;
+	text-align: center;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.descuento{  
+	margin: 0 auto; 
+	background: white; 
+	padding: 1em; 
+	color: black; 
+	height: 60%; 
+	margin-bottom: 5px; 
+	border-width: 4px; 
+	border-style: solid; 
+	border-color: black;
+	text-align: center;
+}
+
+.descuento p{ 
+	font-size: 2em; 
+	text-align: center;
+		margin-bottom: 20px;
+}
+	
+.descuento a {font-color: black; size: 14px;}
+
+
+.logo {width: 35%; position: relative; left: 500px;}
+
+.compra{width:70%; height: 10%; background-color: black; margin: 10px 0 0 30px; border-style: solid; border-width: 2px; border-color:#ca2081; padding: 0 0 30px 40px;}
+
+.select{ padding: 1em; border: 0px;}
+
+.video{ float: left; width: 100%; left: 1em;}
+.imagenes1 { float: left; width: 598px; margin: 0;}
+.imagenes2 { float: left; width: 598px; margin: 0; clear:both; margin-top: 11px; }
+
+
+.facebooklike {width: 548px; border-width: 5px; border-style: solid; color: black; padding-left:40px; float:left; *padding-top:40px; *margin-top:10px }
+
+.imagenes_slides { float: left; width: 598px; position: relative; top:75%; right: 42.5%;}
+.imagenes_derecha {float: right; position:absolute; bottom:-420px;right:1px; *clear:both; *margin-top:50px;}
+
+
+.video{ position: absolute; left: 1em; margin-bottom: 15px;}
+
+
+.imagenes_bottom { width: 335px; float:right; position: relative; right:20px; bottom: 105px;}
+.dimenciones{ position: absolute; top: 1em; right: 1em; z-index: -10;}
+
+
+/* FORMS */
+.box_cotizacion a:hover, .compra a:hover{ color:#ef4d8a ;}
+
+.box_cotizacion{ width: 280px;  float: right; font-size:2em; color: white; top: 0px; right: 1em;  padding: .75em; line-height: 1em; *float:right; *padding: 10px; 
+-moz-border-radius: 15px; -webkit-border-radius: 15px; }
+
+.precio{ color: white; font-size: 1em; text-align: right; margin-top: 2em;}
+
+.webform { background-color: black; font-family: 'arial'; margin: 0 10px 0 0px; line-height: 20px;}
+
+.webform td { font-family: arial; font-size:16px; text-align: right; padding-left: 10px; }
+.right-bottom{ float: right; width: 278px; margin-top: 15px;}
+
+.envio {width: 341px; float: right; position: absolute; top: 15px;right: 45px; *float:right; clear:right}
+
+.envio h1{ background: #C92B82; color: white; padding: 15; text-align: center;}
+
+
+
+#formu{ color: black}
+
+#formu .webform { width:440px; *width:540px;}
+
+fieldset{ border: 2px solid black;}
+legend{ font-size: 2em;}
+
+label{ color: black; font-size: 15px; font-family: 'arial';}
+
+.item{ margin: 3em 0 0 2em;}
+
+.cat_button{ border: 1px solid #ca2381; background:url(/images2/btn_form.gif); color: #FFF; font-size: 1em;  width: 170px; height: 50px;cursor: pointer;}
+
+.cat_button:hover{ background: url(/images2/btn_formh.gif); color: #FFF; border-style: solid; }
+
+
+
+.form_ordenar{ margin: 0 auto;}
+.form_ordenar p{ text-align: right;}
+
+.form_ordenar input, .cantidad{ padding: 1em; width: 300px; border: 1px dashed black;}
+.reinforcement{ float: left; width: 300px; margin-top: 100px;}
+
+.boton_confirmar {width: 150px;  margin: 0 auto; background: black; color: #ef4d8a; text-align: center; padding: 10px; font-size: 26px; font-family: 'arial'; cursor: pointer; border:none;}
+.boton_confirmar:hover{ background: #ef4d8a; border-style: solid; border-width: 1px; border-color: black; color: black;}
+
+.preguntas { width: 450px; margin-left: 18em;}
+
+.mercadolibre { width: 300px; position:relative;
+left: 55em; top: -16em;}
+
+.confirmacionlabel {font-family: arial; size: 16px; color: black;}
+
+.cat_textbox {border-style: solid; border-width: 1px; border-color: #ca2381; width:280px; background-color: #FFF; height: 25px; font-size: 12px; font-family: arial; color:#000; margin:0 0 10px 0;}
+
+.webform label{ color: white; font-size: 14px;}
+
+.cat_textbox_confirmacion {border-style: solid; border-width: 1px; border-color: black; height: 30px; width: 250px;}
+
+.container_confirmacion { margin:30px 0 0 30px;}
+
+
+
+#sio_container { 
+*float:right;
+*margin:0;
+*padding:0;
+*margin-top:-410px;
+}
+
+
+#slider{ width: 300px;}
+#cantidad_block{ float: right;}
+
+
+label.error { float: none; font-size: 12px; color: #C8207F; padding-left: .5em; vertical-align: top; }
+.error{ float: left; font-size: 10px; width: 100%; color: #C8207F;}
+
+#ki_container{ left: 10px;}
+
+.colores{ float:left; width:661px; letf: 6px}
+
+
+#slideshow {
+    position:relative;
+		margin-top: 40px;
+		height: 350px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+
+.oscuro{ color: black; font-size: 200%;}
+
+
+/*EMPLEO*/
+.empleo {
+	width: 595px;
+	margin: 0 auto;
+}
+
+.empleo img{ border-bottom:5px solid black;}
+
+.calltoaction {
+	width: 590px;
+	margin: 0 auto;
+	padding-left:5px;
+	margin-bottom: 45px;
+	text-align: justify;
+}
+
+.info {
+	width: 600px;
+	margin: 0 auto;
+	padding: 10px 0 0 0px;
+	text-align: justify;
+}
+
+.info tr td {
+padding-right:20px;
+vertical-align:top;
+}
+
+.empleo_botton {
+	width: 590px;
+	position: relative;
+	right: 10px;
+	border:1px dashed black;
+	padding:30px;
+	margin-top: 30px;
+}
+
+.empleo_botton p{ 
+	text-align: center;
+}
+
+
+
+p {font-family: "HelvetivaNeueBold", "Arial", "Sans-serif"; font-size: 16px; color: black; text-align: justify; line-height: 22px;}
+
+a {font-family: "HelvetivaNeueBold", "Arial", "Sans-serif"; font-size: 24.25px; color: #ca167f;text-decoration:underline;}
+
+.prosado {font-family: "HelvetivaNeueBold", "Arial", "Sans-serif"; font-size: 18px; color: #ca167f;}
